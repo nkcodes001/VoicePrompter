@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "module": "index.js",
+  "type": "require",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.9.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.25.0"
+  }
+}
