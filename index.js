@@ -6,7 +6,10 @@ const OpenAI = require("openai");
 const messages = [];
 
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: "sk-ev15YH4AEfOepl5Ks4eET33455453BlbkFJhcClCGsFLCU7Ju99itUL",
+  // This API KEY ISNT VALID ANYMORE
+  // Its a Dummy key
+  // can use process.env(key)
 });
 
 async function main(input) {
